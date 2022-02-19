@@ -1,0 +1,67 @@
+body{
+    background-color: #d38748;
+}
+
+.container{
+    height: 93vh;
+    background-color: #F3C969;
+    padding: 10px;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+#menu{
+    background-color: rgba(59, 59, 59, 0.801);
+    width: 98%;
+    height: 10%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn{
+    min-width: 6vh;
+    max-width: 12vh;
+    min-height: 6vh;
+    max-height: 12vh;
+    background: no-repeat;
+    background-color: #D9AA3D;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    background-position: center center;
+}
+
+p{
+    margin: 0px;
+    display: inline-block;
+}
+
+#comfg{
+    background-image: url(imgs/config.png);
+}
+
+#home{
+    background-image: url(imgs/Home.png);
+}
+
+#mais{
+    background-image: url(imgs/mais.png);
+}
+
+#pesquisar{
+    background-image: url(imgs/pesquisar.png);
+}
+
+#perfil{
+    background-image: url(imgs/perfil.png);
+}
+
+.btn:hover{
+    background-color: #A6822E;
+}
